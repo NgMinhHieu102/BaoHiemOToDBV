@@ -681,8 +681,34 @@ async function runInitSql() {
   }
 
   const sql = fs.readFileSync(initPath, 'utf-8');
-  await db.query(sql);
-  console.log('Database initialized from init.sql.');
+
+  // Run the entire init.sql inside a single transaction
+  const client = await db.pool.connect();
+  try {
+    await client.query('BEGIN');
+    await client.query(sql);
+    await client.query('COMMIT');
+    console.log('Database initialized from init.sql.');
+  } catch (err) {
+    await client.query('ROLLBACK');
+    console.error('Failed to run init.sql:', err.message);
+    // Try running statements one by one as fallback
+    console.log('Retrying init.sql statement by statement...');
+    const statements = sql
+      .split(';')
+      .map((s) => s.trim())
+      .filter((s) => s.length > 0);
+    for (const stmt of statements) {
+      try {
+        await client.query(stmt);
+      } catch (stmtErr) {
+        console.error('Statement failed:', stmtErr.message, '| SQL:', stmt.substring(0, 80));
+      }
+    }
+    console.log('Statement-by-statement init completed.');
+  } finally {
+    client.release();
+  }
 }
 
 async function startServer() {
