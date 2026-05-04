@@ -153,115 +153,115 @@ RESTART IDENTITY;
 
 INSERT INTO page_settings (section_name, key_name, value_text) VALUES
   ('hero', 'banner_alt', 'DBV Insurance Banner'),
-  ('quote', 'eyebrow', 'T�NH PH� & MUA B�O HI�M NHANH CH�NG'),
-  ('quote', 'heading', 'CH� 1 PH�T - NH�N NGAY B�O GI�'),
-  ('quote', 'button_text', 'NH�N B�O GI�'),
-  ('why_choose', 'eyebrow', 'V� SAO CH�N DBV?'),
-  ('why_choose', 'heading', 'CAM K�T �NG H�NH C�NG B�N'),
-  ('products', 'eyebrow', 'S�N PH�M N�I B�T'),
-  ('products', 'heading', 'A D�NG GI�I PH�P B�O HI�M'),
-  ('products', 'subheading', 'L�a ch�n g�i b�o hi�m ph� h�p, t�n h��ng h�nh tr�nh tr�n v�n.'),
-  ('products', 'button_text', 'XEM T�T C� S�N PH�M'),
-  ('benefits', 'eyebrow', 'QUY�N L�I KHI THAM GIA B�O HI�M DBV'),
-  ('benefits', 'heading', 'B�O V� TO�N DI�N - AN T�M TR�N V�N'),
-  ('process', 'eyebrow', 'QUY TR�NH THAM GIA B�O HI�M'),
-  ('process', 'heading', '4 B��C �N GI�N'),
-  ('faq', 'eyebrow', 'C�U H�I TH��NG G�P'),
-  ('faq', 'heading', 'GI�I �P TH�C M�C C�A B�N'),
-  ('testimonials', 'eyebrow', 'KH�CH H�NG N�I G� V� DBV'),
-  ('testimonials', 'heading', 'TRI�U KH�CH H�NG TIN T��NG'),
-  ('mobile_app', 'eyebrow', '�NG D�NG DBV INSURANCE'),
-  ('mobile_app', 'heading', 'QU�N L� B�O HI�M D� D�NG TR�N I�N THO�I'),
+  ('quote', 'eyebrow', 'TÍNH PHÍ & MUA BẢO HIỂM NHANH CHÓNG'),
+  ('quote', 'heading', 'CHỈ 1 PHÚT - NHẬN NGAY BÁO GIÁ'),
+  ('quote', 'button_text', 'NHẬN BÁO GIÁ'),
+  ('why_choose', 'eyebrow', 'VÌ SAO CHỌN DBV?'),
+  ('why_choose', 'heading', 'CAM KẾT ĐỒNG HÀNH CÙNG BẠN'),
+  ('products', 'eyebrow', 'SẢN PHẨM NỔI BẬT'),
+  ('products', 'heading', 'ĐA DẠNG GIẢI PHÁP BẢO HIỂM'),
+  ('products', 'subheading', 'Lựa chọn gói bảo hiểm phù hợp, tận hưởng hành trình trọn vẹn.'),
+  ('products', 'button_text', 'XEM TẤT CẢ SẢN PHẨM'),
+  ('benefits', 'eyebrow', 'QUYỀN LỢI KHI THAM GIA BẢO HIỂM DBV'),
+  ('benefits', 'heading', 'BẢO VỆ TOÀN DIỆN - AN TÂM TRỌN VẸN'),
+  ('process', 'eyebrow', 'QUY TRÌNH THAM GIA BẢO HIỂM'),
+  ('process', 'heading', '4 BƯỚC ĐƠN GIẢN'),
+  ('faq', 'eyebrow', 'CÂU HỎI THƯỜNG GẶP'),
+  ('faq', 'heading', 'GIẢI ĐÁP THẮC MẮC CỦA BẠN'),
+  ('testimonials', 'eyebrow', 'KHÁCH HÀNG NÓI GÌ VỀ DBV'),
+  ('testimonials', 'heading', 'TRIỆU KHÁCH HÀNG TIN TƯỞNG'),
+  ('mobile_app', 'eyebrow', 'ỨNG DỤNG DBV INSURANCE'),
+  ('mobile_app', 'heading', 'QUẢN LÝ BẢO HIỂM DỄ DÀNG TRÊN ĐIỆN THOẠI'),
   ('mobile_app', 'app_store_text', 'Download on the App Store'),
   ('mobile_app', 'google_play_text', 'Get it on Google Play'),
-  ('news', 'eyebrow', 'TIN T�C M�I NH�T'),
-  ('news', 'heading', 'C�P NH�T TH�NG TIN H�U �CH'),
-  ('news', 'button_text', 'XEM T�T C�'),
-  ('partners', 'heading', '�I T�C C�A DBV'),
-  ('banner', 'button_text', 'G�I T� V�N NGAY'),
+  ('news', 'eyebrow', 'TIN TỨC MỚI NHẤT'),
+  ('news', 'heading', 'CẬP NHẬT THÔNG TIN HỮU ÍCH'),
+  ('news', 'button_text', 'XEM TẤT CẢ'),
+  ('partners', 'heading', 'ĐỐI TÁC CỦA DBV'),
+  ('banner', 'button_text', 'GỌI TƯ VẤN NGAY'),
   ('banner', 'phone_number', '1900 1234'),
-  ('banner', 'support_text', 'H� tr� 24/7 mi�n ph�'),
+  ('banner', 'support_text', 'Hỗ trợ 24/7 miễn phí'),
   ('contact_support', 'zalo_url', 'https://zalo.me/0901234567'),
   ('contact_support', 'zalo_label', 'Chat with Zalo'),
   ('contact_support', 'map_embed_url', 'https://www.google.com/maps?q=Quan+1,+Ho+Chi+Minh+City&z=15&output=embed'),
   ('contact_support', 'map_title', 'DBV office map'),
   ('footer', 'brand_name', 'DBV'),
   ('footer', 'brand_subtitle', 'Insurance'),
-  ('footer', 'description', 'DBV cam k�t mang �n c�c gi�i ph�p b�o hi�m �u vi�t, b�o v� b�n v� gia �nh tr��c m�i r�i ro.'),
-  ('footer', 'copyright', '� 2024 DBV Insurance. All rights reserved.');
+  ('footer', 'description', 'DBV cam kết mang đến các giải pháp bảo hiểm ưu việt, bảo vệ bạn và gia đình trước mọi rủi ro.'),
+  ('footer', 'copyright', '© 2024 DBV Insurance. All rights reserved.');
 
 INSERT INTO navigation_links (label, href, display_order) VALUES
-  ('Trang ch�', '#home', 1),
-  ('S�n ph�m', '#products', 2),
-  ('Quy�n l�i', '#benefits', 3),
-  ('Tin t�c', '#news', 4),
-  ('Li�n h�', '#contact', 5);
+  ('Trang chủ', '#home', 1),
+  ('Sản phẩm', '#products', 2),
+  ('Quyền lợi', '#benefits', 3),
+  ('Tin tức', '#news', 4),
+  ('Liên hệ', '#contact', 5);
 
 INSERT INTO insurance_types (slug, name, description, icon_key, display_order) VALUES
-  ('oto', 'Xe � T�', 'B�o v� to�n di�n cho xe v� ng��i ng�i tr�n xe', 'oto', 1),
-  ('xemay', 'Xe M�y', 'An t�m vi vu tr�n m�i cung ��ng', 'xemay', 2),
-  ('suckhoe', 'S�c Kh�e', 'Chm s�c s�c kh�e to�n di�n cho b�n v� gia �nh', 'suckhoe', 3),
-  ('dulich', 'Du L�ch', 'An t�m kh�m ph�, tr�n v�n tr�i nghi�m', 'dulich', 4),
-  ('hanghoa', 'H�ng H�a', 'B�o v� h�ng h�a trong qu� tr�nh v�n chuy�n', 'hanghoa', 5),
-  ('nha', 'Nh� T� Nh�n', 'B�o v� ng�i nh� v� t�i s�n tr��c m�i r�i ro', 'nha', 6);
+  ('oto', 'Xe Ô Tô', 'Bảo vệ toàn diện cho xe và người ngồi trên xe', 'oto', 1),
+  ('xemay', 'Xe Máy', 'An tâm vi vu trên mọi cung đường', 'xemay', 2),
+  ('suckhoe', 'Sức Khỏe', 'Chăm sóc sức khỏe toàn diện cho bạn và gia đình', 'suckhoe', 3),
+  ('dulich', 'Du Lịch', 'An tâm khám phá, trọn vẹn trải nghiệm', 'dulich', 4),
+  ('hanghoa', 'Hàng Hóa', 'Bảo vệ hàng hóa trong quá trình vận chuyển', 'hanghoa', 5),
+  ('nha', 'Nhà Tư Nhân', 'Bảo vệ ngôi nhà và tài sản trước mọi rủi ro', 'nha', 6);
 
 INSERT INTO license_plate_regions (slug, name, prefixes, display_order) VALUES
-  ('hanoi', 'H� N�i', '29, 30, 31, 32, 33, 40', 1),
+  ('hanoi', 'Hà Nội', '29, 30, 31, 32, 33, 40', 1),
   ('hcm', 'TP.HCM', '50, 51, 52, 53, 54, 55, 56, 57, 58, 59', 2),
-  ('danang', '� N�ng', '43', 3),
-  ('haiphong', 'H�i Ph�ng', '15, 16', 4),
-  ('cantho', 'C�n Th�', '65', 5),
-  ('other', 'T�nh th�nh kh�c', 'Kh�c', 6);
+  ('danang', 'Đà Nẵng', '43', 3),
+  ('haiphong', 'Hải Phòng', '15, 16', 4),
+  ('cantho', 'Cần Thơ', '65', 5),
+  ('other', 'Tỉnh thành khác', 'Khác', 6);
 
 INSERT INTO why_choose_reasons (title, description, icon_key, display_order) VALUES
-  ('Th��ng hi�u uy t�n', 'H�n 15 nm kinh nghi�m trong l)nh v�c b�o hi�m', 'why-1', 1),
-  ('Quy tr�nh �n gi�n', 'Th� t�c nhanh g�n, d� d�ng, ti�t ki�m th�i gian', 'why-2', 2),
-  ('B�i th��ng minh b�ch', 'Cam k�t b�i th��ng r� r�ng, �ng quy �nh', 'why-3', 3),
-  ('M�ng l��i r�ng kh�p', 'H�n 200+ gara li�n k�t tr�n to�n qu�c', 'why-4', 4),
-  ('C�ng ngh� hi�n �i', 'N�n t�ng tr�c tuy�n th�ng minh, tr�i nghi�m ti�n l�i', 'why-5', 5);
+  ('Thương hiệu uy tín', 'Hơn 15 năm kinh nghiệm trong lĩnh vực bảo hiểm', 'why-1', 1),
+  ('Quy trình đơn giản', 'Thủ tục nhanh gọn, dễ dàng, tiết kiệm thời gian', 'why-2', 2),
+  ('Bồi thường minh bạch', 'Cam kết bồi thường rõ ràng, đúng quy định', 'why-3', 3),
+  ('Mạng lưới rộng khắp', 'Hơn 200+ gara liên kết trên toàn quốc', 'why-4', 4),
+  ('Công nghệ hiện đại', 'Nền tảng trực tuyến thông minh, trải nghiệm tiện lợi', 'why-5', 5);
 
 INSERT INTO stats (number_text, label, icon_key, display_order) VALUES
-  ('15+', 'Nm kinh nghi�m', 'stat-6', 1),
-  ('500,000+', 'Kh�ch h�ng tin t��ng', 'stat-7', 2),
-  ('98%', 'T� l� b�i th��ng th�nh c�ng', 'stat-8', 3),
-  ('24/7', 'H� tr� kh�ch h�ng', 'stat-9', 4);
+  ('15+', 'Năm kinh nghiệm', 'stat-6', 1),
+  ('500,000+', 'Khách hàng tin tưởng', 'stat-7', 2),
+  ('98%', 'Tỷ lệ bồi thường thành công', 'stat-8', 3),
+  ('24/7', 'Hỗ trợ khách hàng', 'stat-9', 4);
 
 INSERT INTO benefits (title, description, icon_key, display_order) VALUES
-  ('B�o v� to�n di�n', 'a d�ng quy�n l�i ph� h�p nhu c�u', 'benefit-10', 1),
-  ('Chi ph� h�p l�', 'M�c ph� c�nh tranh, nhi�u �u �i h�p d�n', 'benefit-11', 2),
-  ('H� tr� 24/7', 'T� v�n v� h� tr� m�i l�c, m�i n�i', 'benefit-12', 3),
-  ('B�i th��ng nhanh ch�ng', 'Quy tr�nh �n gi�n, nh�n b�i th��ng nhanh', 'benefit-13', 4),
-  ('T� do l�a ch�n', 'Linh ho�t l�a ch�n g�i b�o hi�m ph� h�p', 'benefit-14', 5);
+  ('Bảo vệ toàn diện', 'Đa dạng quyền lợi phù hợp nhu cầu', 'benefit-10', 1),
+  ('Chi phí hợp lý', 'Mức phí cạnh tranh, nhiều ưu đãi hấp dẫn', 'benefit-11', 2),
+  ('Hỗ trợ 24/7', 'Tư vấn và hỗ trợ mọi lúc, mọi nơi', 'benefit-12', 3),
+  ('Bồi thường nhanh chóng', 'Quy trình đơn giản, nhận bồi thường nhanh', 'benefit-13', 4),
+  ('Tự do lựa chọn', 'Linh hoạt lựa chọn gói bảo hiểm phù hợp', 'benefit-14', 5);
 
 INSERT INTO process_steps (step_number, title, description, display_order) VALUES
-  ('1', 'Ch�n s�n ph�m', 'L�a ch�n g�i b�o hi�m ph� h�p nhu c�u', 1),
-  ('2', 'Cung c�p th�ng tin', 'i�n �y � th�ng tin theo h��ng d�n', 2),
-  ('3', 'Thanh to�n', 'Thanh to�n tr�c tuy�n nhanh ch�ng, an to�n', 3),
-  ('4', 'Nh�n h�p �ng', 'Nh�n h�p �ng i�n t� v� gi�y ch�ng nh�n', 4);
+  ('1', 'Chọn sản phẩm', 'Lựa chọn gói bảo hiểm phù hợp nhu cầu', 1),
+  ('2', 'Cung cấp thông tin', 'Điền đầy đủ thông tin theo hướng dẫn', 2),
+  ('3', 'Thanh toán', 'Thanh toán trực tuyến nhanh chóng, an toàn', 3),
+  ('4', 'Nhận hợp đồng', 'Nhận hợp đồng điện tử và giấy chứng nhận', 4);
 
 INSERT INTO faqs (question, answer, display_order) VALUES
-  ('B�o hi�m xe � t� c� b�t bu�c kh�ng?', 'Theo quy �nh c�a ph�p lu�t Vi�t Nam, b�o hi�m tr�ch nhi�m d�n s� c�a ch� xe c� gi�i l� b�t bu�c. �y l� lo�i b�o hi�m c� b�n nh�t m� m�i ch� xe � t� ph�i mua � ��c l�u h�nh tr�n ��ng.', 1),
-  ('Th�i gian b�i th��ng m�t bao l�u?', 'Th�i gian b�i th��ng ph� thu�c v�o t�ng tr��ng h�p c� th�. �i v�i c�c tr��ng h�p �n gi�n, th�i gian b�i th��ng th��ng t� 7-15 ng�y l�m vi�c. �i v�i c�c tr��ng h�p ph�c t�p c�n i�u tra th�m, th�i gian c� th� k�o d�i h�n nh�ng kh�ng qu� 30 ng�y.', 2),
-  ('T�i c� th� mua b�o hi�m online ��c kh�ng?', 'C�, b�n ho�n to�n c� th� mua b�o hi�m online th�ng qua website ch�nh th�c c�a DBV. Quy tr�nh �n gi�n, nhanh ch�ng v� an to�n. B�n s� nh�n ��c h�p �ng i�n t� ngay sau khi thanh to�n th�nh c�ng.', 3),
-  ('L�m th� n�o � y�u c�u b�i th��ng?', 'Khi x�y ra s� c�, b�n c�n: 1) B�o ngay cho c�ng ty b�o hi�m qua hotline 24/7, 2) B�o v� hi�n tr��ng v� thu th�p b�ng ch�ng, 3) Chu�n b� �y � h� s� theo y�u c�u, 4) N�p h� s� t�i vn ph�ng g�n nh�t ho�c online. �i ngi chuy�n vi�n s� h� tr� b�n trong su�t qu� tr�nh.', 4),
-  ('Chi ph� b�o hi�m ��c t�nh nh� th� n�o?', 'Chi ph� b�o hi�m ��c t�nh d�a tr�n nhi�u y�u t� nh�: lo�i xe, gi� tr� xe, m�c �ch s� d�ng, khu v�c ho�t �ng, l�ch s� b�i th��ng, v� c�c quy�n l�i b� sung b�n l�a ch�n. DBV cung c�p nhi�u g�i b�o hi�m linh ho�t ph� h�p v�i t�ng nhu c�u v� ng�n s�ch.', 5);
+  ('Bảo hiểm xe ô tô có bắt buộc không?', 'Theo quy định của pháp luật Việt Nam, bảo hiểm trách nhiệm dân sự của chủ xe cơ giới là bắt buộc. Đây là loại bảo hiểm cơ bản nhất mà mọi chủ xe ô tô phải mua để được lưu hành trên đường.', 1),
+  ('Thời gian bồi thường mất bao lâu?', 'Thời gian bồi thường phụ thuộc vào từng trường hợp cụ thể. Đối với các trường hợp đơn giản, thời gian bồi thường thường từ 7-15 ngày làm việc. Đối với các trường hợp phức tạp cần điều tra thêm, thời gian có thể kéo dài hơn nhưng không quá 30 ngày.', 2),
+  ('Tôi có thể mua bảo hiểm online được không?', 'Có, bạn hoàn toàn có thể mua bảo hiểm online thông qua website chính thức của DBV. Quy trình đơn giản, nhanh chóng và an toàn. Bạn sẽ nhận được hợp đồng điện tử ngay sau khi thanh toán thành công.', 3),
+  ('Làm thế nào để yêu cầu bồi thường?', 'Khi xảy ra sự cố, bạn cần: 1) Báo ngay cho công ty bảo hiểm qua hotline 24/7, 2) Bảo vệ hiện trường và thu thập bằng chứng, 3) Chuẩn bị đầy đủ hồ sơ theo yêu cầu, 4) Nộp hồ sơ tại văn phòng gần nhất hoặc online. Đội ngũ chuyên viên sẽ hỗ trợ bạn trong suốt quá trình.', 4),
+  ('Chi phí bảo hiểm được tính như thế nào?', 'Chi phí bảo hiểm được tính dựa trên nhiều yếu tố như: loại xe, giá trị xe, mục đích sử dụng, khu vực hoạt động, lịch sử bồi thường, và các quyền lợi bổ sung bạn lựa chọn. DBV cung cấp nhiều gói bảo hiểm linh hoạt phù hợp với từng nhu cầu và ngân sách.', 5);
 
 INSERT INTO testimonials (name, location, review, avatar_key, rating, display_order) VALUES
-  ('Nguy�n Ho�ng Nam', 'Kh�ch h�ng t�i H� N�i', 'D�ch v� r�t nhanh ch�ng v� chuy�n nghi�p. T�i � ��c b�i th��ng ch� sau 2 ng�y, r�t h�i l�ng!', 'avt1', 5, 1),
-  ('Tr�n Thu Trang', 'Kh�ch h�ng t�i � N�ng', 'Mua b�o hi�m online r�t ti�n l�i, th� t�c �n gi�n. Nh�n vi�n t� v�n nhi�t t�nh, h� tr� 24/7.', 'avt2', 5, 2),
-  ('L� Minh �c', 'Kh�ch h�ng t�i TP.HCM', 'Quy�n l�i t�t, chi ph� h�p l�. DBV l� l�a ch�n s� 1 c�a t�i v� gia �nh.', 'avt1', 5, 3),
-  ('Ph�m Th� Lan', 'Kh�ch h�ng t�i H�i Ph�ng', 'T�i � s� d�ng d�ch v� b�o hi�m c�a DBV ��c 3 nm. R�t tin t��ng v� h�i l�ng v�i ch�t l��ng ph�c v�.', 'avt2', 5, 4);
+  ('Nguyễn Hoàng Nam', 'Khách hàng tại Hà Nội', 'Dịch vụ rất nhanh chóng và chuyên nghiệp. Tôi đã được bồi thường chỉ sau 2 ngày, rất hài lòng!', 'avt1', 5, 1),
+  ('Trần Thu Trang', 'Khách hàng tại Đà Nẵng', 'Mua bảo hiểm online rất tiện lợi, thủ tục đơn giản. Nhân viên tư vấn nhiệt tình, hỗ trợ 24/7.', 'avt2', 5, 2),
+  ('Lê Minh Đức', 'Khách hàng tại TP.HCM', 'Quyền lợi tốt, chi phí hợp lý. DBV là lựa chọn số 1 của tôi và gia đình.', 'avt1', 5, 3),
+  ('Phạm Thị Lan', 'Khách hàng tại Hải Phòng', 'Tôi đã sử dụng dịch vụ bảo hiểm của DBV được 3 năm. Rất tin tưởng và hài lòng với chất lượng phục vụ.', 'avt2', 5, 4);
 
 INSERT INTO app_features (feature_text, display_order) VALUES
-  ('Mua b�o hi�m nhanh ch�ng', 1),
-  ('Theo d�i h�p �ng, l�ch s� b�i th��ng', 2),
-  ('Nh�n th�ng b�o v� �u �i h�p d�n', 3),
-  ('H� tr� 24/7 m�i l�c m�i n�i', 4);
+  ('Mua bảo hiểm nhanh chóng', 1),
+  ('Theo dõi hợp đồng, lịch sử bồi thường', 2),
+  ('Nhận thông báo và ưu đãi hấp dẫn', 3),
+  ('Hỗ trợ 24/7 mọi lúc mọi nơi', 4);
 
 INSERT INTO news_articles (category, category_color, published_at, title, description, image_url, link_url, display_order) VALUES
-  ('Kinh nghi�m', '#1a6b2f', '20/04/2024', '5 kinh nghi�m l�i xe an to�n m�a m�a b�o', 'Nh�ng l�u � quan tr�ng gi�p b�n l�i xe an to�n trong i�u ki�n th�i ti�t x�u.', 'https://bhdbv.com/wp-content/uploads/2020/10/bhdbv-baohiemxe-autocare-1024x512.jpg', '#', 1),
-  ('Tin t�c', '#1a6b2f', '18/04/2024', 'DBV ra m�t g�i b�o hi�m xe � t� to�n di�n m�i', 'Quy�n l�i v��t tr�i, ph� c�nh tranh, b�o v� t�i �u cho xe y�u c�a b�n.', 'https://bhdbv.com/wp-content/uploads/2026/03/dbv-allianz-partners-thailand-buoc-ngoat-bao-hiem-xe-co-gioi-viet-nam-1024x512.jpg', '#', 2),
-  ('H��ng d�n', '#1a6b2f', '15/04/2024', 'H��ng d�n y�u c�u b�i th��ng tr�c tuy�n', 'C�c b��c �n gi�n � y�u c�u b�i th��ng nhanh ch�ng v� thu�n ti�n.', 'https://bhdbv.com/wp-content/uploads/2026/02/trien-khai-cap-giay-chung-nhan-dang-kiem-dien-tu-01-3-2026-1024x512.jpg', '#', 3);
+  ('Kinh nghiệm', '#1a6b2f', '20/04/2024', '5 kinh nghiệm lái xe an toàn mùa mưa bão', 'Những lưu ý quan trọng giúp bạn lái xe an toàn trong điều kiện thời tiết xấu.', 'https://bhdbv.com/wp-content/uploads/2020/10/bhdbv-baohiemxe-autocare-1024x512.jpg', '#', 1),
+  ('Tin tức', '#1a6b2f', '18/04/2024', 'DBV ra mắt gói bảo hiểm xe ô tô toàn diện mới', 'Quyền lợi vượt trội, phí cạnh tranh, bảo vệ tối ưu cho xe yêu của bạn.', 'https://bhdbv.com/wp-content/uploads/2026/03/dbv-allianz-partners-thailand-buoc-ngoat-bao-hiem-xe-co-gioi-viet-nam-1024x512.jpg', '#', 2),
+  ('Hướng dẫn', '#1a6b2f', '15/04/2024', 'Hướng dẫn yêu cầu bồi thường trực tuyến', 'Các bước đơn giản để yêu cầu bồi thường nhanh chóng và thuận tiện.', 'https://bhdbv.com/wp-content/uploads/2026/02/trien-khai-cap-giay-chung-nhan-dang-kiem-dien-tu-01-3-2026-1024x512.jpg', '#', 3);
 
 INSERT INTO partners (name, logo_key, website_url, display_order) VALUES
   ('Toyota', 'toyota', '#', 1),
@@ -271,23 +271,23 @@ INSERT INTO partners (name, logo_key, website_url, display_order) VALUES
   ('Thaco', 'thaco', '#', 5);
 
 INSERT INTO footer_links (section_title, label, href, display_order) VALUES
-  ('S�N PH�M', 'B�o hi�m xe � t�', '#', 1),
-  ('S�N PH�M', 'B�o hi�m xe m�y', '#', 2),
-  ('S�N PH�M', 'B�o hi�m s�c kh�e', '#', 3),
-  ('S�N PH�M', 'B�o hi�m du l�ch', '#', 4),
-  ('S�N PH�M', 'B�o hi�m h�ng h�a', '#', 5),
-  ('H� TR�', 'H��ng d�n mua b�o hi�m', '#', 1),
-  ('H� TR�', 'H��ng d�n b�i th��ng', '#', 2),
-  ('H� TR�', 'C�u h�i th��ng g�p', '#', 3),
-  ('H� TR�', 'i�u kho�n b�o hi�m', '#', 4),
-  ('H� TR�', 'Li�n h� h� tr�', '#', 5),
-  ('V� DBV', 'Gi�i thi�u', '#', 1),
-  ('V� DBV', 'Tin t�c', '#', 2),
-  ('V� DBV', 'Tuy�n d�ng', '#', 3),
-  ('V� DBV', 'Ch�nh s�ch b�o m�t', '#', 4),
-  ('V� DBV', 'i�u kho�n s� d�ng', '#', 5);
+  ('SẢN PHẨM', 'Bảo hiểm xe ô tô', '#', 1),
+  ('SẢN PHẨM', 'Bảo hiểm xe máy', '#', 2),
+  ('SẢN PHẨM', 'Bảo hiểm sức khỏe', '#', 3),
+  ('SẢN PHẨM', 'Bảo hiểm du lịch', '#', 4),
+  ('SẢN PHẨM', 'Bảo hiểm hàng hóa', '#', 5),
+  ('HỖ TRỢ', 'Hướng dẫn mua bảo hiểm', '#', 1),
+  ('HỖ TRỢ', 'Hướng dẫn bồi thường', '#', 2),
+  ('HỖ TRỢ', 'Câu hỏi thường gặp', '#', 3),
+  ('HỖ TRỢ', 'Điều khoản bảo hiểm', '#', 4),
+  ('HỖ TRỢ', 'Liên hệ hỗ trợ', '#', 5),
+  ('VỀ DBV', 'Giới thiệu', '#', 1),
+  ('VỀ DBV', 'Tin tức', '#', 2),
+  ('VỀ DBV', 'Tuyển dụng', '#', 3),
+  ('VỀ DBV', 'Chính sách bảo mật', '#', 4),
+  ('VỀ DBV', 'Điều khoản sử dụng', '#', 5);
 
 INSERT INTO contact_infos (contact_type, label, value_text, display_order) VALUES
   ('phone', 'Hotline', '1900 1234', 1),
   ('email', 'Email', 'hotro@dbv.com.vn', 2),
-  ('address', '�a ch�', 'T�ng 12, T�a nh� DBV, Qu�n 1, TP. H� Ch� Minh', 3);
+  ('address', 'Địa chỉ', 'Tầng 12, Tòa nhà DBV, Quận 1, TP. Hồ Chí Minh', 3);

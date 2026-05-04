@@ -664,15 +664,16 @@ async function runInitSql() {
     return;
   }
 
-  // Check if tables already have data (skip seeding if so)
+  // Check if tables already have CORRECT data (skip seeding if so)
   try {
     const result = await db.query(
       "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'page_settings') AS exists"
     );
     if (result.rows[0]?.exists) {
-      const countResult = await db.query('SELECT COUNT(*)::int AS total FROM page_settings');
-      if (countResult.rows[0]?.total > 0) {
-        console.log('Database already seeded, skipping init.sql.');
+      const countResult = await db.query("SELECT value_text FROM page_settings WHERE section_name = 'quote' AND key_name = 'eyebrow' LIMIT 1");
+      const val = countResult.rows[0]?.value_text || '';
+      if (val.includes('TÍNH PHÍ')) {
+        console.log('Database already seeded with correct data, skipping init.sql.');
         return;
       }
     }
