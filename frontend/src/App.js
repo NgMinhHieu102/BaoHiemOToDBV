@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -14,34 +14,119 @@ import News from './components/News';
 import Partners from './components/Partners';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
+import AdminApp from './components/AdminApp';
+import SupportWidget from './components/SupportWidget';
+import { createQuote, fetchHomeContent } from './api';
+import { defaultHomeContent } from './defaultContent';
 
 function App() {
+  const isAdminPage = window.location.pathname.startsWith('/admin');
+  const [homeContent, setHomeContent] = useState(defaultHomeContent);
+  const [loading, setLoading] = useState(true);
+  const [pageError, setPageError] = useState('');
+  const [quoteState, setQuoteState] = useState({
+    submitting: false,
+    message: '',
+    error: '',
+  });
+
+  useEffect(() => {
+    if (isAdminPage) {
+      setLoading(false);
+      return undefined;
+    }
+
+    let active = true;
+
+    async function loadContent() {
+      try {
+        const data = await fetchHomeContent();
+        if (active) {
+          setHomeContent(data);
+          setPageError('');
+        }
+      } catch (error) {
+        if (active) {
+          setPageError(error.message);
+        }
+      } finally {
+        if (active) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadContent();
+
+    return () => {
+      active = false;
+    };
+  }, [isAdminPage]);
+
+  if (isAdminPage) {
+    return <AdminApp />;
+  }
+
+  async function handleQuoteSubmit(formData) {
+    try {
+      setQuoteState({
+        submitting: true,
+        message: '',
+        error: '',
+      });
+
+      const response = await createQuote(formData);
+      setQuoteState({
+        submitting: false,
+        message: response.message,
+        error: '',
+      });
+      return true;
+    } catch (error) {
+      setQuoteState({
+        submitting: false,
+        message: '',
+        error: error.message,
+      });
+      return false;
+    }
+  }
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar links={homeContent.navigationLinks} />
+      {loading && <div className="page-status">Đang tải dữ liệu từ hệ thống...</div>}
+      {pageError && <div className="page-status page-status--error">{pageError}</div>}
       <section id="home">
-        <Hero />
+        <Hero content={homeContent.hero} />
       </section>
       <section id="products">
-        <Products />
+        <Products content={homeContent.products} />
       </section>
-      <WhyChoose />
-      <StatsBanner />
+      <WhyChoose content={homeContent.whyChoose} />
+      <StatsBanner content={homeContent.stats} />
       <section id="benefits">
-        <Benefits />
+        <Benefits content={homeContent.benefits} />
       </section>
-      <Process />
-      <FAQ />
-      <Testimonials />
-      <MobileApp />
+      <Process content={homeContent.process} />
+      <FAQ content={homeContent.faqs} />
+      <Testimonials content={homeContent.testimonials} />
+      <MobileApp
+        quoteSection={homeContent.quoteSection}
+        quoteOptions={homeContent.quoteOptions}
+        mobileApp={homeContent.mobileApp}
+        onQuoteSubmit={handleQuoteSubmit}
+        quoteState={quoteState}
+      />
       <section id="news">
-        <News />
+        <News content={homeContent.news} />
       </section>
-      <Partners />
-      <Banner />
+      <Partners content={homeContent.partners} />
+      <Banner content={homeContent.banner} />
       <section id="contact">
-        <Footer />
+        <Footer content={homeContent.footer} contactSupport={homeContent.contactSupport} />
       </section>
+      <SupportWidget contactSupport={homeContent.contactSupport} />
     </div>
   );
 }

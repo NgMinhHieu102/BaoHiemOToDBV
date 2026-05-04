@@ -77,7 +77,6 @@
   font-weight: 600;
   color: #333333;
   appearance: none;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -86,6 +85,10 @@
   border-color: #ffffff;
   background: #ffffff;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.form-select::placeholder {
+  color: #666666;
 }
 
 .form-select option {
@@ -132,13 +135,31 @@
   transform: translateY(0);
 }
 
-/* ── Responsive ── */
+.quote-button:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.quote-feedback {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.quote-feedback--success {
+  color: #dcfce7;
+}
+
+.quote-feedback--error {
+  color: #fee2e2;
+}
+
 @media (max-width: 1024px) {
   .form-row {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
-  
+
   .quote-button {
     grid-column: 1 / -1;
     justify-self: center;
@@ -150,20 +171,20 @@
   .quote-form {
     padding: 48px 16px;
   }
-  
+
   .quote-form-wrapper {
     padding: 24px 20px;
   }
-  
+
   .form-row {
     grid-template-columns: 1fr;
     gap: 16px;
   }
-  
+
   .quote-button {
     width: 100%;
   }
-  
+
   .quote-heading {
     margin-bottom: 32px;
   }
@@ -173,13 +194,13 @@
   .quote-form-wrapper {
     padding: 20px 16px;
   }
-  
+
   .form-select {
     height: 48px;
     font-size: 15px;
     padding: 0 40px 0 16px;
   }
-  
+
   .quote-button {
     height: 48px;
     font-size: 15px;

@@ -1,0 +1,42 @@
+.support-widget {
+  position: fixed;
+  right: 20px;
+  bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1200;
+}
+
+.support-widget__button {
+  min-width: 74px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 800;
+  box-shadow: 0 14px 30px rgba(16, 36, 24, 0.18);
+}
+
+.support-widget__button--zalo {
+  background: #0068ff;
+  color: #ffffff;
+}
+
+.support-widget__button--map {
+  background: #ffffff;
+  color: #173624;
+}
+
+@media (max-width: 768px) {
+  .support-widget {
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .support-widget__button {
+    min-width: 66px;
+    padding: 11px 12px;
+  }
+}

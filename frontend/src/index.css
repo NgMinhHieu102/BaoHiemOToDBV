@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,8 +11,18 @@ html {
 }
 
 body {
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Be Vietnam Pro', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: #1a1a1a;
-  background: #fff;
+  background:
+    radial-gradient(circle at top center, rgba(217, 240, 101, 0.18), transparent 24%),
+    linear-gradient(180deg, #fcfdf8 0%, #f4f7ef 100%);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }

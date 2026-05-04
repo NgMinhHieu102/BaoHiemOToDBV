@@ -1,0 +1,10 @@
+{
+  "name": "baohiemotodbv-workspace",
+  "private": true,
+  "scripts": {
+    "db:start": "docker compose up -d postgres",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "dev": "start cmd /k \"npm run backend\" && start cmd /k \"npm run frontend\" && npm run db:start"
+  }
+}

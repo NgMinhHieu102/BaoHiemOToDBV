@@ -2,19 +2,18 @@ import React from 'react';
 import './Hero.css';
 import pannerImg from '../assets/panner.png';
 
-const Hero = () => {
+const Hero = ({ content = {} }) => {
   return (
     <section className="hero" id="home">
-      <img src={pannerImg} alt="DBV Insurance Banner" className="hero-banner" />
+      <img src={pannerImg} alt={content.banner_alt || 'Banner bảo hiểm DBV'} className="hero-banner" />
 
-      {/* 2 nút overlay góc dưới trái */}
       <div className="hero-buttons">
-        <button className="hero-btn hero-btn--primary">
-          GỌI TƯ VẤN BẢO HIỂM
-        </button>
-        <button className="hero-btn hero-btn--outline">
+        <a className="hero-btn hero-btn--primary" href="#quote">
+          GỬI TƯ VẤN BẢO HIỂM
+        </a>
+        <a className="hero-btn hero-btn--outline" href="#products">
           XEM SẢN PHẨM
-        </button>
+        </a>
       </div>
     </section>
   );
