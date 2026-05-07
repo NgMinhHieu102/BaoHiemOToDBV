@@ -18,7 +18,7 @@ const FAQ = ({ content = { items: [] } }) => {
           {content.items.map((faq, index) => (
             <div className={`faq-item ${openIndex === index ? 'active' : ''}`} key={index}>
               <button className="faq-question" onClick={() => toggleFAQ(index)}>
-                <span className="question-icon">õ</span>
+                <span className="question-icon">‚ùì</span>
                 <span className="question-text">{faq.question}</span>
                 <span className="toggle-icon">+</span>
               </button>

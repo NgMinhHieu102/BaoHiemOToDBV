@@ -17,16 +17,30 @@
   font-size: 14px;
   font-weight: 800;
   box-shadow: 0 14px 30px rgba(16, 36, 24, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-widget__button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 36px rgba(16, 36, 24, 0.25);
 }
 
 .support-widget__button--zalo {
   background: #0068ff;
   color: #ffffff;
+  animation: pulse-zalo 2s infinite;
 }
 
 .support-widget__button--map {
   background: #ffffff;
   color: #173624;
+  border: 1px solid #e0e0e0;
+}
+
+@keyframes pulse-zalo {
+  0% { box-shadow: 0 0 0 0 rgba(0, 104, 255, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(0, 104, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 104, 255, 0); }
 }
 
 @media (max-width: 768px) {

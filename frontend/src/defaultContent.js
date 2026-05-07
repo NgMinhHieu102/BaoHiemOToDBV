@@ -55,8 +55,20 @@ export const defaultHomeContent = {
     items: [],
   },
   partners: {
-    heading: '',
-    items: [],
+    heading: 'ĐỐI TÁC CỦA DBV',
+    items: [
+      { name: 'Toyota', logoKey: 'toyota' },
+      { name: 'Honda', logoKey: 'honda' },
+      { name: 'Ford', logoKey: 'ford' },
+      { name: 'VinFast', logoKey: 'vin' },
+      { name: 'Thaco', logoKey: 'thaco' },
+      { name: 'Mitsubishi', logoKey: 'mitsubishi' },
+      { name: 'MG', logoKey: 'mg' },
+      { name: 'OMODA', logoKey: 'omoda' },
+      { name: 'BYD', logoKey: 'byd' },
+      { name: 'MEC', logoKey: 'mec' },
+      { name: 'Lexus', logoKey: 'lexus' },
+    ],
   },
   banner: {},
   contactSupport: {

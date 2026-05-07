@@ -23,6 +23,12 @@ import honda from './assets/honda.png';
 import ford from './assets/ford.png';
 import vin from './assets/vin.png';
 import thaco from './assets/thaco.png';
+import mitsubishi from './assets/mitsubishi.png';
+import mg from './assets/mg.png';
+import omoda from './assets/omoda.png';
+import byd from './assets/byd.png';
+import mec from './assets/mec.png';
+import lexus from './assets/lexus.png';
 import avt1 from './assets/avt1.png';
 import avt2 from './assets/avt2.png';
 
@@ -64,6 +70,12 @@ export const partnerLogos = {
   ford,
   vin,
   thaco,
+  mitsubishi,
+  mg,
+  omoda,
+  byd,
+  mec,
+  lexus,
 };
 
 export const testimonialAvatars = {

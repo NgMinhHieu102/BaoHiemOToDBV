@@ -53,7 +53,7 @@ const Navbar = ({ links = defaultLinks }) => {
               ))}
             </ul>
 
-            <button className="navbar-cta">TÍNH PHÍ VÀ MUA BẢO HIỂM</button>
+            <a href="#quote" className="navbar-cta">TÍNH PHÍ VÀ MUA BẢO HIỂM</a>
 
             <button
               className={`navbar-hamburger ${menuOpen ? 'navbar-hamburger--open' : ''}`}
@@ -79,7 +79,7 @@ const Navbar = ({ links = defaultLinks }) => {
                 {link.label}
               </a>
             ))}
-            <button className="navbar-cta navbar-cta--full">TÍNH PHÍ VÀ MUA BẢO HIỂM</button>
+            <a href="#quote" className="navbar-cta navbar-cta--full" onClick={() => setMenuOpen(false)}>TÍNH PHÍ VÀ MUA BẢO HIỂM</a>
           </nav>
         )}
       </div>

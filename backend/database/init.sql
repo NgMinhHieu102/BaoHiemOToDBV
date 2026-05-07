@@ -268,7 +268,13 @@ INSERT INTO partners (name, logo_key, website_url, display_order) VALUES
   ('Honda', 'honda', '#', 2),
   ('Ford', 'ford', '#', 3),
   ('VinFast', 'vin', '#', 4),
-  ('Thaco', 'thaco', '#', 5);
+  ('Thaco', 'thaco', '#', 5),
+  ('Mitsubishi', 'mitsubishi', '#', 6),
+  ('MG', 'mg', '#', 7),
+  ('OMODA', 'omoda', '#', 8),
+  ('BYD', 'byd', '#', 9),
+  ('MEC', 'mec', '#', 10),
+  ('Lexus', 'lexus', '#', 11);
 
 INSERT INTO footer_links (section_title, label, href, display_order) VALUES
   ('SẢN PHẨM', 'Bảo hiểm xe ô tô', '#', 1),

@@ -33,6 +33,7 @@
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
 }
 
 /* Nút xanh lá */
